@@ -35,10 +35,15 @@ In this project I am going to perform some basic image recognition tasks. The im
 dataset provided contains images (in jpeg format) of dimensions 120x128, with the
 training set consisting of 315 images and the test set consisting of 90 images.
 In each image, the subject has the following characteristics:
+
 ● Name – name of the subject
+
 ● Direction Faced – left, right, straight, up
+
 ● Emotion – happy, sad, neutral, angry
+
 ● Eyewear – open, sunglasses
+
 Each image follows the naming convention “ name_directionFaced_emotion_eyewear.jpg ”
 
 Each image has shape of 120x128. Flatten each image array to a vector of dimensions
